@@ -20,15 +20,15 @@ export default function TabsLayout() {
         }}
       />
       <Tabs.Screen
-        name="profile"
-        options={{
-          title: "Profile",
-        }}
-      />
-      <Tabs.Screen
         name="settings"
         options={{
           title: "Settings",
+        }}
+      />
+      <Tabs.Screen
+        name="send"
+        options={{
+          title: "Enviar",
         }}
       />
     </Tabs>
